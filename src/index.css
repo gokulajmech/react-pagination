@@ -1,0 +1,52 @@
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t-body{
+    display: flex;
+    flex-direction:column;
+}
+
+th,td,table{
+    text-align: inherit;
+    border: solid whitesmoke 8px;
+    border: collapse;
+    font-size: 25px;
+    background-color: wheat;
+    
+}
+
+nav{
+    margin-top:25px;
+    
+}
+
+li{
+    
+    color:royalblue;
+    
+}
+
+@media(max-width:400px)
+{
+    th,td,table{
+        font-size: 13px;
+        
+    }
+    li{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:300px)
+{
+    th,td,table{
+        font-size: 8px;
+        
+    }
+    li{
+        font-size: 8px;
+    }
+}
